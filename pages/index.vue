@@ -3,7 +3,6 @@
     <master-header />
     <slider />
     <div class="container my-5">
-      <h1>Star Wars Films</h1>
       <films :films="films" />
     </div>
   </div>
