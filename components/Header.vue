@@ -1,7 +1,7 @@
 <template>
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container">
-      <a class="navbar-brand" href="#">NuxtJS - Optimized</a>
+      <a class="navbar-brand" href="#">Star Wars <small class="text-secondary">Nuxt Optimized</small></a>
       <button
         class="navbar-toggler"
         type="button"
@@ -23,7 +23,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
+            <a v-b-modal.modalLogin class="nav-link" href="#">Login</a>
           </li>
         </ul>
         <form class="form-inline my-2 my-lg-0">

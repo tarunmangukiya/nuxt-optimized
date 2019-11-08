@@ -1,6 +1,6 @@
 <template>
   <div>
-    <carousel per-page="1" autoplay navigation-enabled>
+    <carousel :per-page="1" autoplay navigation-enabled>
       <slide v-for="i in 10" :key="i">
         <img :src="`https://picsum.photos/1440/500/?random=${i}`" class="img-fluid" />
       </slide>
