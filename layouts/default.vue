@@ -15,3 +15,11 @@ export default {
   }  
 }
 </script>
+
+<style lang="scss">
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900');
+
+body {
+  font-family: "Roboto", Arial, Helvetica, sans-serif,
+}
+</style>
