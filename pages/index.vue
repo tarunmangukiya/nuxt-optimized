@@ -8,7 +8,7 @@
 
     <div class="container">
       <div class="row no-gutters">
-        <div v-for="i in 12" :key="i" class="image col-4">
+        <div v-for="i in 40" :key="i" class="image col-4">
           <img :src="`https://picsum.photos/360/250/?random=${i}`" />
         </div>
       </div>

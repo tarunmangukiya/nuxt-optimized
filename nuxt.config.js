@@ -57,6 +57,13 @@ export default {
   ** Build configuration
   */
   build: {
+    // extractCSS: false,
+    // optimization: {
+    //   splitChunks: {
+    //     minSize: 50000,
+    //     maxSize: 750000,
+    //   }
+    // },
     /*
     ** You can extend webpack config here
     */

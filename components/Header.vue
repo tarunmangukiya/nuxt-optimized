@@ -17,10 +17,14 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#">
+            <nuxt-link :to="{ name: 'index' }" class="nav-link" href="#">
               Home
-              <span class="sr-only">(current)</span>
-            </a>
+            </nuxt-link>
+          </li>
+          <li class="nav-item">
+            <nuxt-link :to="{ name: 'about' }" class="nav-link" href="#">
+              About
+            </nuxt-link>
           </li>
           <li class="nav-item">
             <a v-b-modal.modalLogin class="nav-link" href="#">Login</a>
