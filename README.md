@@ -2,6 +2,10 @@
 
 > My swell Nuxt.js project
 
+## Presentation
+
+You can find full presentation at https://www.canva.com/design/DADqrYoCIt4/XtSLABwMQSp_5PdECnZwZQ/view
+
 ## Build Setup
 
 ``` bash
